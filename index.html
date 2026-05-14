@@ -5,10 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>49 Chills · San Francisco's Amateur to Awesome Biking Guide</title>
 <meta name="description" content="San Francisco's Amateur to Awesome Biking Guide. Chill routes for navigating SF's hills and exploring the city.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 <style>
+  @font-face { font-family: 'FigGrotesk'; font-style: normal; font-weight: 400; font-display: swap; src: url('fonts/FigGrotesk-Regular.woff2') format('woff2'), url('fonts/FigGrotesk-Regular.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: italic; font-weight: 400; font-display: swap; src: url('fonts/FigGrotesk-RegularItalic.woff2') format('woff2'), url('fonts/FigGrotesk-RegularItalic.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: normal; font-weight: 500; font-display: swap; src: url('fonts/FigGrotesk-Medium.woff2') format('woff2'), url('fonts/FigGrotesk-Medium.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: italic; font-weight: 500; font-display: swap; src: url('fonts/FigGrotesk-MediumItalic.woff2') format('woff2'), url('fonts/FigGrotesk-MediumItalic.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: normal; font-weight: 600; font-display: swap; src: url('fonts/FigGrotesk-Semibold.woff2') format('woff2'), url('fonts/FigGrotesk-Semibold.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: italic; font-weight: 600; font-display: swap; src: url('fonts/FigGrotesk-SemiboldItalic.woff2') format('woff2'), url('fonts/FigGrotesk-SemiboldItalic.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: normal; font-weight: 700; font-display: swap; src: url('fonts/FigGrotesk-Bold.woff2') format('woff2'), url('fonts/FigGrotesk-Bold.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: italic; font-weight: 700; font-display: swap; src: url('fonts/FigGrotesk-BoldItalic.woff2') format('woff2'), url('fonts/FigGrotesk-BoldItalic.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: normal; font-weight: 900; font-display: swap; src: url('fonts/FigGrotesk-Black.woff2') format('woff2'), url('fonts/FigGrotesk-Black.woff') format('woff'); }
+  @font-face { font-family: 'FigGrotesk'; font-style: italic; font-weight: 900; font-display: swap; src: url('fonts/FigGrotesk-BlackItalic.woff2') format('woff2'), url('fonts/FigGrotesk-BlackItalic.woff') format('woff'); }
+
   :root {
     --paper: #F9F8F3;
     --paper-warm: #F1EAD4;
@@ -30,7 +38,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
-    font-family: 'DM Sans', system-ui, sans-serif;
+    font-family: 'FigGrotesk', system-ui, sans-serif;
     background: var(--paper);
     color: var(--ink);
     line-height: 1.55;
@@ -70,7 +78,7 @@
     font-size: 14px;
   }
   nav.topbar .brand {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 900;
     font-size: 18px;
     color: var(--green-deep);
@@ -117,7 +125,7 @@
     background: rgba(255,255,255,0.4);
   }
   .hero h1 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 900;
     font-size: clamp(80px, 18vw, 240px);
     line-height: 0.88;
@@ -134,7 +142,7 @@
     margin-top: -0.05em;
   }
   .hero p.tag {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-weight: 500;
     font-size: clamp(20px, 2.6vw, 28px);
@@ -193,7 +201,7 @@
     margin-bottom: 16px;
   }
   h2.section-title {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 900;
     font-size: clamp(36px, 5.5vw, 64px);
     line-height: 1.02;
@@ -215,7 +223,7 @@
   }
   .intro .squiggle { margin: 36px auto; }
   .intro h2 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 700;
     font-size: clamp(28px, 4vw, 44px);
     line-height: 1.15;
@@ -237,7 +245,7 @@
     font-size: 18px;
   }
   .intro p.lets-roll {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-weight: 600;
     font-size: 24px;
@@ -286,7 +294,7 @@
     box-shadow: 0 8px 24px rgba(14, 106, 59, 0.1);
   }
   .route-num {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -309,7 +317,7 @@
   .route-card.sea .route-dot { background: var(--green); }
   .route-card.corazon .route-dot { background: var(--red); }
   .route-card h3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 32px;
     font-weight: 900;
     letter-spacing: -0.025em;
@@ -355,7 +363,7 @@
     margin: 0 auto 8px;
   }
   .river-item .label {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: var(--green-deep);
@@ -408,7 +416,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: var(--paper);
@@ -481,7 +489,7 @@
     right: 24px;
     color: rgba(255,255,255,0.8);
     font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
   }
 
@@ -494,7 +502,7 @@
     position: relative;
   }
   .pullquote .mark {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-size: 100px;
     line-height: 0.6;
@@ -503,7 +511,7 @@
     user-select: none;
   }
   .pullquote blockquote {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: clamp(22px, 3.2vw, 34px);
@@ -540,7 +548,7 @@
     margin: 32px auto;
   }
   .filter-btn {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 13.5px;
     font-weight: 500;
     padding: 9px 18px;
@@ -574,7 +582,7 @@
     margin-top: 16px;
   }
   .dest-cat h3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: -0.015em;
@@ -589,7 +597,7 @@
     color: var(--green);
   }
   .dest-cat h3 .cat-tag {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 11.5px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -618,7 +626,7 @@
     min-width: 0;
   }
   .dest-sub {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-size: 12.5px;
     line-height: 1.2;
@@ -629,7 +637,7 @@
     padding-left: 12px;
   }
   .dest-num {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-size: 26px;
     font-weight: 500;
@@ -670,7 +678,7 @@
   .info-card.road { background: var(--green-pale); }
 
   .info-card h3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 18px;
@@ -709,7 +717,7 @@
     position: absolute;
     left: 0;
     color: var(--green);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-weight: 600;
   }
   .info-card.know li::before { color: var(--blue-chill); }
@@ -727,7 +735,7 @@
   }
   footer .squiggle { color: var(--green-light); margin: 0 auto 24px; }
   footer h3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     font-size: clamp(26px, 3.8vw, 36px);
     font-weight: 700;
@@ -750,7 +758,7 @@
     line-height: 1.7;
   }
   footer .credit em {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'FigGrotesk', sans-serif;
     font-style: italic;
     color: var(--green-light);
   }

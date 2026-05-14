@@ -12,7 +12,7 @@ const TEMPLATE = path.join(ROOT, 'index.html');
 const EXCLUDE = new Set([
   'build.js', 'package.json', 'package-lock.json', 'node_modules',
   'netlify.toml', 'dist', 'content', 'index.html', 'README.md',
-  'fonts', 'FigGrotesk_Web.zip',
+  'FigGrotesk_Web.zip',
 ]);
 const shouldSkip = (name) => EXCLUDE.has(name) || name.startsWith('.');
 
