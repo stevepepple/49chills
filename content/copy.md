@@ -91,6 +91,12 @@ On the road
 - Lock your bike to something metal. With a u-lock. Preferably in front of a store.
 - Don't rush. Slow is forever.
 
+## media.eyebrow
+Roll Tape
+
+## media.h2
+The view from the *handlebars.*
+
 ## footer.h3
 A chill bike guide for a hilly city. What did we miss? What's good?
 
