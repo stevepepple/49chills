@@ -9,7 +9,10 @@ desktop.ini
 *.swp
 *~
 
-# Node (if added later)
+# Build output
+dist/
+
+# Node
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -17,6 +20,12 @@ yarn-error.log*
 
 # Netlify
 .netlify/
+
+# Claude
+.claude/
+
+# Font source archives (keep extracted fonts/ folder in repo)
+*.zip
 
 # Env
 .env
